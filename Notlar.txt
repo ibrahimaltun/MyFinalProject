@@ -1,0 +1,26 @@
+- Veritabaný tablolarýný Entities/Concrete 
+altýnda tutuyoruz.
+
+- Class oluþturduktan sonra onu public yapmayý
+unutmuyoruz.
+
+
+
+
+
+--------------Yeni Ýþlem Adýmlarý------------
+
+1 : Öcelikle veritabaný tablosu oluþturmak için
+Entities/Concrete sað týk->add->class yaparak 
+class ismi veriyoruz. class'ý public yapýyoruz.
+
+
+2: DataAccess->Abstract altýnda IOrderDal Interface'i
+oluþturuyoruz. Burada IEntityRepository<Order>'ý
+inherit ediyoruz.
+
+3:DataAccess->Concrete->EntityFramework 
+
+4: Business->Abstract-> ICategoryService
+
+5:Business->Concrete->CategoryManager

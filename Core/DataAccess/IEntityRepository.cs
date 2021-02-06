@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
-using Entities.Abstract;
+using Core.Entities;
 
-namespace DataAccess.Abstract
-{
+//namespace : Türkçesi isim uzayı
+//Peki ne işe yarar;
+//
+namespace Core.DataAccess
+{//core katmanları diğer katmanları referans almaz.
     //generic constraint
     //class : referans tip olabilir demektir.
     //IEntity : IEntity olabilir veya Ientity implemente eden bir nesne olabilir.
